@@ -1,0 +1,8 @@
+Project Phoenix - Q3 Kick-off
+
+- Agenda: Review Q2 results, plan for Q3 features.
+- Decision: We are prioritizing the new reporting module over the social media integration for now.
+- Marketing team needs the final feature list by this Friday, July 1st, to start preparing campaign materials.
+- Alex is responsible for finalizing the Q3 feature list.
+- The server upgrade is complete, but Sarah needs to run performance tests by EOD tomorrow.
+- General discussion about team morale and a potential team outing in August.
