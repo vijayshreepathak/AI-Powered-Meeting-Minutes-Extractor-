@@ -150,10 +150,7 @@ You can use [Postman](https://www.postman.com/) to easily test the API endpoints
 5. Click **Send**.
 6. The response will be shown in the **Body** section as JSON.
 
-> **Tip:** You can visualize the JSON response in Postman using the "Pretty" view.
 
 ---
-
-## ✅ Sample API Output
 
 ```
