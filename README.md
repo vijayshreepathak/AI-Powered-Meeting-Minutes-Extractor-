@@ -15,6 +15,18 @@ A Node.js backend service that uses OpenAI's GPT to extract concise summaries, k
 - **Robust Error Handling:** Handles API errors, timeouts, and invalid input gracefully.
 
 ---
+## Architecture & Flow
+
+    participant User
+    participant ExpressServer
+    participant OpenAIAPI
+
+    User->>ExpressServer: POST /process-meeting (file or text)
+    ExpressServer->>ExpressServer: Parse input (multer or raw body)
+    ExpressServer->>OpenAIAPI: Send notes with prompt
+    OpenAIAPI-->>ExpressServer: AI-generated summary, decisions, action items
+    ExpressServer->>User: Return structured JSON response
+---
 
 ## 🛠️ Tech Stack
 
